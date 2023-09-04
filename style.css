@@ -13,7 +13,7 @@ img{
 }
 div{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 450px;
+    width: 550px;
     height: 600px;
     justify-content: center;
 }
@@ -22,4 +22,15 @@ section{
     margin-right: auto;
     text-align: center;
     justify-items: center;
+}
+/* footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
 }
