@@ -1,8 +1,25 @@
 body{
-    width: 100%;
-    display: flex;
+    background-image: radial-gradient(closest-corner,
+    rgb(82, 206, 206),
+    rgb(18, 245, 196)
+    );
+    /* background-color: rgb(91, 240, 240) */
 }
 img{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 100px;
+}
+div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 450px;
+    height: 600px;
+    justify-content: center;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-items: center;
 }
