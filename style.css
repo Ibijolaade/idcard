@@ -1,36 +1,46 @@
 body{
-    background-image: radial-gradient(closest-corner,
-    rgb(82, 206, 206),
-    rgb(18, 245, 196)
-    );
-    /* background-color: rgb(91, 240, 240) */
-}
-img{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-}
-div{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 550px;
-    height: 600px;
-    justify-content: center;
-}
-section{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-items: center;
-}
-/* footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
-ul{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
 
+}
+.profile-card{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+.profile-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.profile-card h2{
+    font-size: 24px;
+    margin: 5px, 0;
+}
+.profile-card p{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.profile-card hr{
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+.profile-stats{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-stats .stat{
+    flex: 1;
+}
+.profile-stats h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+.profile-stats h3{
+    font-size: 18px;
 }
