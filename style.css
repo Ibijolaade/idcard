@@ -30,13 +30,14 @@ background-color: darkcyan;
 .profile-card h1{
     font-size: 18px;
 }
-.profile-card h2{
-    font-size: 24px;
-    margin: 5px, 0;
+.profile-card span{
+    font-size: 18px;
+    color: #bfbfbf;
 }
 .profile-card p{
     font-size: 18px;
     margin: 5px 0;
+    color: #bfbfbf;
 }
 .profile-stats{
     display: flex;
@@ -49,11 +50,14 @@ background-color: darkcyan;
 }
 .profile-stats h3{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
 }
 .profile-stats h3{
     font-size: 18px;
+}
+.profile-stats p{
+    color: #bfbfbf;
 }
 @media (max-width:1440px){
     /* 1440px and below */
