@@ -59,9 +59,12 @@ background-color: darkcyan;
 .profile-stats p{
     color: #bfbfbf;
 }
-@media (max-width:1440px){
-    /* 1440px and below */
-}
-@media (min-width:1440px){
-     /* 1440px and above */
+
+@media (max-width:760px){
+     /* 760px and below*/
+   
+     .profile-card{
+        width: 280px;
+        margin: 50px auto;
+     }
 }
